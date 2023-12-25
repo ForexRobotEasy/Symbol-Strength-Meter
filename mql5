@@ -1,0 +1,122 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                             Symbol Strength Meter|
+//|                                       Developer: Forex Robot Easy|
+//|                                                  Site: forexroboteasy.com|
+//+------------------------------------------------------------------+
+
+// Constants for currency selection
+const string GBP = 'GBP';
+const string AUD = 'AUD';
+const string NZD = 'NZD';
+const string USD = 'USD';
+const string CAD = 'CAD';
+const string CHF = 'CHF';
+const string JPY = 'JPY';
+
+// Function to calculate currency strength indexes
+double CalculateCurrencyStrength(string currency)
+{
+    double strength = 0;
+    
+    // Calculate strength index for each currency based on various factors
+    if(currency == GBP)
+    {
+        // Calculate strength index for GBP
+        // ...
+        strength = 0.8;
+    }
+    else if(currency == AUD)
+    {
+        // Calculate strength index for AUD
+        // ...
+        strength = 0.6;
+    }
+    else if(currency == NZD)
+    {
+        // Calculate strength index for NZD
+        // ...
+        strength = 0.7;
+    }
+    else if(currency == USD)
+    {
+        // Calculate strength index for USD
+        // ...
+        strength = 0.5;
+    }
+    else if(currency == CAD)
+    {
+        // Calculate strength index for CAD
+        // ...
+        strength = 0.4;
+    }
+    else if(currency == CHF)
+    {
+        // Calculate strength index for CHF
+        // ...
+        strength = 0.9;
+    }
+    else if(currency == JPY)
+    {
+        // Calculate strength index for JPY
+        // ...
+        strength = 0.3;
+    }
+    
+    return strength;
+}
+
+// Function to perform comparative analysis of currency performance
+void PerformComparativeAnalysis()
+{
+    double gbpStrength = CalculateCurrencyStrength(GBP);
+    double audStrength = CalculateCurrencyStrength(AUD);
+    double nzdStrength = CalculateCurrencyStrength(NZD);
+    double usdStrength = CalculateCurrencyStrength(USD);
+    double cadStrength = CalculateCurrencyStrength(CAD);
+    double chfStrength = CalculateCurrencyStrength(CHF);
+    double jpyStrength = CalculateCurrencyStrength(JPY);
+    
+    // Perform comparative analysis based on currency strength indexes
+    // ...
+}
+
+// Function to display currency strength indexes
+void DisplayCurrencyStrengthIndexes()
+{
+    double gbpStrength = CalculateCurrencyStrength(GBP);
+    double audStrength = CalculateCurrencyStrength(AUD);
+    double nzdStrength = CalculateCurrencyStrength(NZD);
+    double usdStrength = CalculateCurrencyStrength(USD);
+    double cadStrength = CalculateCurrencyStrength(CAD);
+    double chfStrength = CalculateCurrencyStrength(CHF);
+    double jpyStrength = CalculateCurrencyStrength(JPY);
+    
+    // Display currency strength indexes
+    // ...
+}
+
+// Main entry point of the program
+void OnStart()
+{
+    // Perform currency selection
+    // ...
+    
+    // Calculate currency strength indexes
+    double gbpStrength = CalculateCurrencyStrength(GBP);
+    double audStrength = CalculateCurrencyStrength(AUD);
+    double nzdStrength = CalculateCurrencyStrength(NZD);
+    double usdStrength = CalculateCurrencyStrength(USD);
+    double cadStrength = CalculateCurrencyStrength(CAD);
+    double chfStrength = CalculateCurrencyStrength(CHF);
+    double jpyStrength = CalculateCurrencyStrength(JPY);
+    
+    // Perform comparative analysis
+    PerformComparativeAnalysis();
+    
+    // Display currency strength indexes
+    DisplayCurrencyStrengthIndexes();
+    
+    // End of program
+    // ...
+}
